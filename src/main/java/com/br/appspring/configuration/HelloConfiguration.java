@@ -10,5 +10,7 @@ public class HelloConfiguration {
     public HelloWorldService helloWorldService() {
         return new HelloWorldService();
     }
-    public HelloConfiguration() {}
+    public HelloConfiguration() {
+        super();
+    }
 }
