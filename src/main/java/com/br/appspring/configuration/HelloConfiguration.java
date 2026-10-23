@@ -1,6 +1,5 @@
 package com.br.appspring.configuration;
 
-import com.br.appspring.controller.HelloWorldService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
