@@ -14,8 +14,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Event not found");
     }
 
-    private RestErrorMessage responseEntity(Exception exception, HttpStatus status) {
-        RestErrorMessage threatResponse = new RestErrorMessage(exception.getMessage(), status);
-        return (RestErrorMessage) ResponseEntity.status(HttpStatusCode.valueOf(2));
-    }
+//    private RestErrorMessage responseEntity(Exception exception, HttpStatus status) {
+  //      RestErrorMessage threatResponse = new RestErrorMessage(exception.getMessage(), status);
+    //}
 }
